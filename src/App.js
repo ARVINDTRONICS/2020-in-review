@@ -54,7 +54,7 @@ function App() {
           for granted.
         </h6>
         <h6>
-          Though it is only going to be change of calendars and doesn't the
+          Though it is only going to be a change of calendars and doesn't the
           change the reality that much,the hope that things will be different
           and better going forward is something we must all hold onto.
         </h6>
@@ -66,7 +66,11 @@ function App() {
         </h6>
         <div className="">
           &copy;
-          <a href="https://www.linkedin.com/in/arvindkumarts/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/arvindkumarts/"
+            rel="noreferrer"
+            target="_blank"
+          >
             Arvind Thoppe
           </a>
         </div>
