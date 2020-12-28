@@ -1,0 +1,75 @@
+.App {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+h6 {
+  line-height: 2rem;
+  text-align: left;
+}
+.left-pane {
+  padding: 2rem;
+  font-size: 2rem;
+  width: 20%;
+
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.right-pane {
+  width: 80%;
+  height: 100vh;
+  margin: 0px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+img:hover {
+  transform: scale(1.5);
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .App {
+    flex-direction: column;
+  }
+  .left-pane {
+    flex-direction: column;
+    width: 100%;
+  }
+  .right-pane {
+    margin: 0 auto;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .App {
+    flex-direction: column;
+  }
+  .left-pane {
+    flex-direction: column;
+    width: 100%;
+  }
+}
