@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./App.css";
 import SunSet from "./assets/images/1.jpeg";
 import Beach from "./assets/images/2.jpeg";
@@ -24,7 +24,7 @@ import thekkady from "./assets/images/thekkady.jpeg";
 import wedding from "./assets/images/wedding.jpg";
 import wedding2 from "./assets/images/wedding2.jpg";
 import wedding3 from "./assets/images/wedding3.jpeg";
-import lips from "./assets/images/lips.jpeg";
+
 import react from "./assets/images/react.jpeg";
 import anil from "./assets/images/anil.jpeg";
 import thekkady2 from "./assets/images/thekkady2.jpeg";
@@ -66,7 +66,7 @@ function App() {
         </h6>
         <div className="">
           &copy;
-          <a href="" target="_blank">
+          <a href="https://www.linkedin.com/in/arvindkumarts/" target="_blank">
             Arvind Thoppe
           </a>
         </div>
